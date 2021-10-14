@@ -1,13 +1,10 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore; // Importanto o EF CORE para iniciar o serviço juntamente com o projeto.
+using Starting_with_the_entity_framework.Database;
 
 namespace Starting_with_the_entity_framework
 {
@@ -22,7 +19,18 @@ namespace Starting_with_the_entity_framework
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
+        {   /*Configuração do EF CORE dentro do projeto, passando como um serviço.
+                Aonde passamos que estamos adicionando um Contexto de BD.
+                Passamos o tipo do contexto, que é a nossa classe de configuração.
+                Passamos  na função lambda as configurações de conexão.
+                Que foram informadas no arquivo appsettings.json.*/
+
+            string connectionString = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<ApplicationDBContext>(options => options.UseMySql(
+                connectionString, ServerVersion.AutoDetect(connectionString)
+                )
+            );
+            
             services.AddControllersWithViews();
         }
 
