@@ -45,3 +45,5 @@ D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-frame
 D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\obj\Debug\net5.0\ref\Starting-with-the-entity-framework.dll
 D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\obj\Debug\net5.0\Starting-with-the-entity-framework.pdb
 D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\obj\Debug\net5.0\Starting-with-the-entity-framework.genruntimeconfig.cache
+D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\bin\Debug\net5.0\Humanizer.dll
+D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

@@ -1,5 +1,3 @@
-using System;
-
 namespace Starting_with_the_entity_framework.Models
 {
     public class ErrorViewModel

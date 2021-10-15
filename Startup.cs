@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.EntityFrameworkCore; // Importanto o EF CORE para iniciar o serviço juntamente com o projeto.
+using Microsoft.EntityFrameworkCore;
 using Starting_with_the_entity_framework.Database;
 
 namespace Starting_with_the_entity_framework
