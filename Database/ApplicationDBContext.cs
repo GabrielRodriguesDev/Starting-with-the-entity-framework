@@ -5,11 +5,6 @@ namespace Starting_with_the_entity_framework.Database
 {
     public class ApplicationDBContext: DbContext  // Ao herdar de DbContext eu deixo indico ao ASP.NET que essa é a minha classe de configuração do Entity FrameWork
     { 
-        // Todas as propriedades da classe que por fim irão virar campos da tabela e o DbSet, ambos tem que ser public para que o EF possa ter acesso a eles.
-        //Para cada entidade que queremos mapear precisamos do atributo DbSet<>
-        public DbSet<Funcionario> Funcionarios {get; set;} //Com isso o EF já sabe que deve criar uma tabela com base nessa classe.
-        //O nome dela será o nome do atributo que nesse caso é Funcionarios;
-
         
         
         /*O EF Core precisa que ao criar essa classe em que estamos seja carregado as opções de conexão.
@@ -22,5 +17,11 @@ namespace Starting_with_the_entity_framework.Database
         { 
             
         }
+
+         // Todas as propriedades da classe que por fim irão virar campos da tabela e o DbSet, ambos tem que ser public para que o EF possa ter acesso a eles.
+        //Para cada entidade que queremos mapear precisamos do atributo DbSet<>
+        public DbSet<Funcionario> Funcionarios {get; set;} //Com isso o EF já sabe que deve criar uma tabela com base nessa classe.
+        //O nome dela será o nome do atributo que nesse caso é Funcionarios;
+
     } 
 }
