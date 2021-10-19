@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Technology\\Sistemas\\Gabriel\\ASPNET\\SchoolOfNet\\Starting-with-the-entity-framework\\Views\\Funcionarios\\Index.cshtml",
+      "TargetPath": "Views\\Funcionarios\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Technology\\Sistemas\\Gabriel\\ASPNET\\SchoolOfNet\\Starting-with-the-entity-framework\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"

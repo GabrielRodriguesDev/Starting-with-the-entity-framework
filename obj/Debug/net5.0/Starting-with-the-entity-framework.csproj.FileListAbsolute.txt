@@ -48,3 +48,4 @@ D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-frame
 D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\bin\Debug\net5.0\Humanizer.dll
 D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\obj\Debug\net5.0\Razor\Views\Funcionarios\Cadastrar.cshtml.g.cs
+D:\Technology\Sistemas\Gabriel\ASPNET\SchoolOfNet\Starting-with-the-entity-framework\obj\Debug\net5.0\Razor\Views\Funcionarios\Index.cshtml.g.cs
