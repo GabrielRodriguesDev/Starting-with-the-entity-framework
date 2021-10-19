@@ -29,6 +29,7 @@ namespace Starting_with_the_entity_framework
             services.AddDbContext<ApplicationDBContext>(options => options.UseMySql(
                 connectionString, ServerVersion.AutoDetect(connectionString)
                 )
+            
             );
             
             services.AddControllersWithViews();
